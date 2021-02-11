@@ -54,7 +54,7 @@ I picked 5 machine learning techniques for the current classification problem:
 To train the models I used 18 attributes for 135,271 observations of accidents. 
 To test the models I used 18 attributes for 33,818 observations of accidents.
 
-# Libraries and methods:
+# Libraries and methods
 
 •	Numpy - to work with arrays.
 
