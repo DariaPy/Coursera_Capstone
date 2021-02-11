@@ -13,11 +13,17 @@ Update Cycle: Weekly.
 
 # Project plan
 The general plan for this project analysis is:
+
 •	Load, read and inspect the dataset.
+
 •	Fix missing data and type mismatch.
-•	Investigate relations between accidents severity and attributes.
+
+• Investigate relations between accidents severity and attributes.
+
 •	Pick relevant attributes and build ML models.
+
 •	Assess and compare models’ performance.
+
 •	Improve models and describe the final model with recommendations.
 
 # Data Cleaning
@@ -26,20 +32,32 @@ Cleaned dataset included 169,089 observations and 22 attributes.
 
 # Machine Learning modeling
 I picked 5 machine learning techniques for the current classification problem:
+
 •	Decision Tree.
+
 •	Random Forest.
+
 •	Logistic Regression.
+
 •	Naive Bayes.
+
 •	k-Nearest Neighbors.
+
 To train the models I used 18 attributes for 135,271 observations of accidents. 
 To test the models I used 18 attributes for 33,818 observations of accidents.
 
 # Libraries and methods:
+
 •	Numpy - to work with arrays.
+
 •	Pandas - to work with tabular data.
+
 •	Datetime - to extract the data from timestamp.
+
 •	Plotly, Matplotlib, Seaborn - to plot the data.
+
 •	Scikit-learn - to build and assess ML models.
+
 
 # Results
 Among the individual models, the Decision Tree model performed the best, not only because it showed 100% accuracy, but mostly because it predicted the most severe cases correctly (minority cases, class 3). Random Forest performed the same, because it is simply a collection of decision trees whose results are aggregated into one final result. Random Forest could be useful in case Decision tree would not do the trick; but in this particular project Decision Tree classification model works perfectly fine on its own. 
