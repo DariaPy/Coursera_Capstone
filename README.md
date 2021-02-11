@@ -64,7 +64,7 @@ To test the models I used 18 attributes for 33,818 observations of accidents.
 
 •	Plotly, Matplotlib, Seaborn - to plot the data.
 
-•	Scikit-learn - to build and assess ML models.
+•	Scikit-learn - to build, improve, and assess ML models.
 
 
 # Results
