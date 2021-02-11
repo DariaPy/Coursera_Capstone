@@ -1,14 +1,21 @@
 # Project goal
 Current repository presents the materials and results submitted for the course "IBM Applied Data Science: Capstone project"
 
-The goal of this project is to build several machine learning models to be able to predict severity of consequences for motor vehicles collisions in Seattle using the dataset of previously registered cases and their attributes. This project is based on City of Seattle data on traffic crash, also called a motor vehicle collisions, or car accidents. Motor vehicle collisions occurs when a vehicle collides with another vehicle, pedestrian or cyclist, animal or stationary obstruction.
+The goal of this project is to build several machine learning models to be able to predict severity of consequences for motor vehicles collisions in Seattle using the dataset of previously registered cases and their attributes. 
+
+This project is based on City of Seattle data on traffic crash, also called a motor vehicle collisions, or car accidents. Motor vehicle collisions occurs when a vehicle collides with another vehicle, pedestrian or cyclist, animal or stationary obstruction.
 
 # Data sources
 The dataset includes all types of collisions and is hosted by the City of Seattle at the open data platform. 
+
 The CSV file about collisions can be obtained via link http://data-seattlecitygis.opendata.arcgis.com/datasets/5b5c745e0f1f48e7a53acec63a0022ab_0.csv 
+
 Description of different attributes of the collision cases will be used to build machine learning models and predict severity of accidents. 
+
 The file of that description (Collisions_OD.pdf) is available via link  https://www.seattle.gov/Documents/Departments/SDOT/GIS/Collisions_OD.pdf. 
+
 The dataset timeframe: 2004 to Present (September 30, 2020).
+
 Update Cycle: Weekly.
 
 # Project plan
@@ -28,6 +35,7 @@ The general plan for this project analysis is:
 
 # Data Cleaning
 Initial dataset included 221,738 observations and 40 attributes.
+
 Cleaned dataset included 169,089 observations and 22 attributes.
 
 # Machine Learning modeling
